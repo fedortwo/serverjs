@@ -17,7 +17,7 @@ ontime({
 
             headers: {
                 'Content-Type': 'application/json',
-                'x-api-key': 'gv1kimq4kfma3usnan2exuc6nwhhxxbmjpji5x18'
+                'x-api-key': '*'
             }
         })
         .then(res => { return res.json() })
