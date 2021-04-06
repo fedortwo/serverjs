@@ -14,7 +14,7 @@ fetch('https://api.applicationinsights.io/v1/apps/12daf962-b9c0-4733-913b-967bc7
 
         headers: {
             'Content-Type': 'application/json',
-            'x-api-key': 'gv1kimq4kfma3usnan2exuc6nwhhxxbmjpji5x18'
+            'x-api-key': '*'
         }
     })
     .then(res => { return res.json() })
