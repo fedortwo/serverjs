@@ -12,7 +12,7 @@ async function GetAppInsights() {
             body: JSON.stringify(body),
             headers: {
                 'Content-Type': 'application/json',
-                'x-api-key': 'gv1kimq4kfma3usnan2exuc6nwhhxxbmjpji5x18'
+                'x-api-key': '*'
             }
         }
     )
@@ -35,7 +35,7 @@ async function GetAppInsights() {
 
     var body = { text: `${slacktext}` }
 
-    var request = await fetch('https://hooks.slack.com/services/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',
+    var request = await fetch('https://*',
         {
             method: 'post',
             body: JSON.stringify(body),
