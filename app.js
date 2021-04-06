@@ -10,7 +10,7 @@ request.post({
 
 
     headers: {
-        'x-api-key': 'gv1kimq4kfma3usnan2exuc6nwhhxxbmjpji5x18',
+        'x-api-key': '*',
         'Content-Type': 'application/json; charset=UTF - 8',
         'User-Agent': 'Request-Promise'
     },
